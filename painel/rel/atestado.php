@@ -83,7 +83,7 @@ body {font-family: 'Tw Cen MT', sans-serif;}
 .marca{
 	position:fixed;
 	left:50;
-	top:130;
+	top:200;
 	width:80%;
 	opacity:10%;
 }
@@ -99,7 +99,7 @@ if($marca_dagua == 'Sim'){ ?>
 		<table style="width: 100%; border: 0px solid #ccc;">
 			<tr>
 				<td style="border: 1px; solid #000; width: 20%; text-align: left;">
-					<img style="margin-top: 5px; margin-left: 7px;" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="140px">
+					<img style="margin-top: 1px; margin-left: 7px;" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="70px">
 				</td>
 				<td style="width: 20%; text-align: left; font-size: 13px;">
 				
@@ -131,11 +131,16 @@ if($marca_dagua == 'Sim'){ ?>
 </div>
 <div id="content" style="margin-top: 70px;">
 <div style="font-size: 15px;">
-	Atesto para os devidos fins que o Sr(a) <b><?php echo $nome_paciente ?></b> portador do CPF <?php echo $cpf_paciente ?> esteve sob cuidados médicos no dia <?php echo $data_hoje ?> e deverá se afastar de suas atividades pelo período de <?php echo $datas ?> <b>(<?php echo $dias ?> Dias) </b> por motivo de <?php echo $motivo ?>
+	<p style="margin-left:50px">Atesto para fins trabalhistas que o Sr(a) <b><?php echo $nome_paciente ?></b> portador do CPF nº: <?php echo $cpf_paciente ?> <p>esteve sob cuidados profissionais
+		 no dia __/__/____, e deverá se afastar de suas atividades pelo período de <p><b><?php echo $dias ?> dias </b> por motivo de <?php echo $motivo ?>.</p>
+	<p style="margin-left:50px">Este atestado é válido para fins legais.</p>
+	<p style="margin-left:50px">Sem mais para o momento, coloco-me à disposição para quaisquer esclarecimentos.</p>	
+
+	
 </div>
 <?php if($obs != ""){ ?>
-<div style="margin-top: 20px; border:1px solid #000; font-size: 14px; padding:5px">
-	<b>Informações Relevantes</b>
+<div style="margin-top: 60px; border:1px solid #000; font-size: 14px; padding:5px">
+	<b>Informações Relevantes / CID</b>
 	<p style="font-size: 13px"><?php echo $obs ?></p>
 </div>
 <?php } ?>

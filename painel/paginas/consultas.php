@@ -218,7 +218,7 @@ if(@$consultas == 'ocultar'){
 
 
 
-<!-- Modal RaioX -->
+<!-- Modal Exames -->
 <div class="modal fade" id="modalExames" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
@@ -255,8 +255,8 @@ if(@$consultas == 'ocultar'){
 
 				<div class="row">
 					<div class="col-md-10">	
-								<label>Descrição para o Pedido Raio X</label>
-								<input type="text" id="descricao_raiox" name="descricao_raiox" class="form-control" placeholder="Texto do pedido de raio X">			
+								<label>Descrição para o Pedido de Exames</label>
+								<input type="text" id="descricao_raiox" name="descricao_raiox" class="form-control" placeholder="Texto para pedido de exames">			
 							</div>						
 				
 				
