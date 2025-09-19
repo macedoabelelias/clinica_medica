@@ -452,7 +452,7 @@ if (@count($res1) > 0) {
 
 							<li class="slide <?php echo @$menu_cadastros ?>">
 								<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
-									<i class="fa fa-save text-white mt-1"></i>
+									<i class="fa fa-folder-open text-white mt-1"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Cadastros</span><i
 										class="angle fe fe-chevron-right"></i></a>
 								<ul class="slide-menu">
@@ -495,7 +495,7 @@ if (@count($res1) > 0) {
 
 								<li class="slide <?php echo @$menu_agendamentos ?>">
 								<a class="side-menu__item" data-bs-toggle="slide" href="javascript:void(0);">
-									<i class="fa fa-calendar text-white mt-1"></i>
+									<i class="fa fa-calendar-plus text-white mt-1"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Agendamentos</span><i
 										class="angle fe fe-chevron-right"></i></a>
 								<ul class="slide-menu">
@@ -566,7 +566,7 @@ if (@count($res1) > 0) {
 
 							<li class="slide <?php echo @$minhas_comissoes ?>">
 								<a class="side-menu__item" href="minhas_comissoes">
-									<i class="fa fa-money text-white"></i>
+									<i class="fa fa-pie-chart text-white"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Minhas Comissões</span></a>
 							</li>
 
@@ -576,7 +576,7 @@ if (@count($res1) > 0) {
 
 							<li class="slide <?php echo @$tratamentos ?>">
 								<a class="side-menu__item" href="tratamentos">
-									<i class="fa fa-calendar-plus-o text-white"></i>
+									<i class="fa fa-medkit text-white"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Tratamentos </span></a>
 							</li>
 
@@ -592,14 +592,14 @@ if (@count($res1) > 0) {
 
 							<li class="slide <?php echo @$caixas ?>">
 								<a class="side-menu__item" href="caixas">
-									<i class="fa fa-briefcase text-white"></i>
+									<i class="fa fa-line-chart text-white"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Caixas <?php echo $texto_caixa ?></span></a>
 							</li>
 
 
 							<li class="slide <?php echo @$tarefas ?>">
 								<a class="side-menu__item" href="tarefas">
-									<i class="fa fa-calendar text-white"></i>
+									<i class="fa fa-calendar-check text-white"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Tarefas / Agenda</span></a>
 							</li>
 
