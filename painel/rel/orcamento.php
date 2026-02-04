@@ -184,25 +184,25 @@ if($marca_dagua == 'Sim'){ ?>
 					<td colspan="4" style="width:100%; font-size: 10px"><b>DADOS DO PACIENTE</b> </td>					
 				</tr>
 				<tr >
-					<td style="width:10%;1border-bottom: : 1px solid #000;"><b>NOME: </b></td>
+					<td style="width:10%; border-bottom: : 1px solid #000;"><b>NOME: </b></td>
 					<td style="width:40%; border-right: : 1px solid #000; border-bottom: : 1px solid #000;">
 						<?php echo @mb_strtoupper($nome_cliente) ?>
 					</td>
 					
 					<td style="width:10%; border-bottom: : 1px solid #000;"><b>ENDEREÇO: </b></td>
-					<td style="width:40%; border-bottom: : 1px solid #000;">
+					<td style="width:40%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo @mb_strtoupper($endereco_cliente) ?>
 
 					</td>
     			</tr>
     			<tr >
-					<td style="width:10%; "><b>TELEFONE: </b></td>
-					<td style="width:40%; border-right: : 1px solid #000; ">
+					<td style="width:10%; border-bottom: : 1px solid #000;"><b>TELEFONE: </b></td>
+					<td style="width:40%; border-right: : 1px solid #000; border-bottom: : 1px solid #000;">
 						<?php echo @mb_strtoupper($tel_cliente) ?>
 					</td>
 					
-					<td style="width:10%;"><b>E-MAIL: </b></td>
-					<td style="width:40%; ">
+					<td style="width:10%; border-bottom: : 1px solid #000;"><b>E-MAIL: </b></td>
+					<td style="width:40%; border-bottom: : 1px solid #000; border-right: : 1px solid #000;">
 						<?php echo @mb_strtoupper($email_cliente) ?>
 					</td>
     			</tr>
